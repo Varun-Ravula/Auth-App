@@ -1,0 +1,26 @@
+.productsList{
+    list-style-type: none;
+    box-shadow:6px 6px 18px black;
+    border-radius:20px 20px 20px 20px;
+    /* display: flex; */
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.product-image{
+    border-radius:20px 0px 0px 20px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:576px){
+    .product-size{
+        display:none;
+    }
+}
+
+@media screen and (max-width:376px){
+    .product-colour{
+        display:none;
+    }
+}

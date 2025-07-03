@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap');
+
+.register-here-text{
+    font-family: "Coral Pixels", serif;
+    font-weight:400;    
+}
+
+/* adding spinner */
+.spin{
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

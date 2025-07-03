@@ -1,0 +1,23 @@
+.user-profile-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-link.active {
+    color: #E51A4C;
+}
+
+/* user details at the top */
+.user-info{
+display:flex;
+flex-direction:column;
+align-items: end;
+}
+
+/* styling for user profile picture */
+.user-profile-picture{
+    border-radius:50%;
+    box-shadow:4px 4px 12px black;
+    object-fit: cover;
+}
